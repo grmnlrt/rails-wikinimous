@@ -1,0 +1,25 @@
+<article>
+  <h1>
+    <%= @article.title %>
+    <small>
+      <%= link_to edit_article_path, class: "navbar-brand" do %>
+        <i class="fa fa-pencil"></i>
+      <% end %>
+        <%= link_to article_path, class: "navbar-brand", method: :delete, data: { confirm: "Are you sure?" } do %>
+        <i class="fa fa-trash-o"></i>
+      <% end %>
+    </small>
+  </h1>
+  <hr>
+  <p><%= @article.content %></p>
+  <p><img src="http://lorempixel.com/800/300/city/" alt=""></p>
+  <h2 id="focused-client-server-product">Focused client-server product</h2>
+  <p>Dolores quo voluptatem. Qui ut eligendi nobis omnis dolorum ex. Incidunt similique ducimus totam.</p>
+  <p>Officia id et veritatis. Consectetur consequuntur aut quaerat et animi. Amet architecto asperiores. Dolorem illo at doloribus quaerat ut.</p>
+  <p><strong>quis</strong> Quae quis reprehenderit id culpa odio officia molestias.Perspiciatis voluptates placeat.Aliquid repudiandae quo dolorem officiis.</p>
+  <h2 id="face-to-face-real-time-knowledge-user">Face to face real-time knowledge user</h2>
+  <p>Recusandae soluta sint sapiente velit dolor nihil.Suscipit accusamus recusandae vel quia ab vel.Quia deserunt illo minima blanditiis saepe. <a href="http://bednarkaulke.co/lori.wuckert">Small Plastic Shirt</a> Molestiae nemo magnam sit rerum tenetur est.Labore numquam sit.Nam et inventore.</p>
+  <p>Ratione sequi id ut rerum quis. Autem non reiciendis aut nulla qui totam esse. Voluptatem perspiciatis enim a quibusdam minus excepturi molestiae. Adipisci quia minus.</p>
+  <p>In libero voluptatem. Doloribus accusamus doloremque provident. Officiis voluptatum laborum voluptas ab sequi voluptatem dolor. Commodi dolor rerum qui aliquam voluptas et.</p>
+  <p>Nobis magnam aut dolorem. Non adipisci laudantium ullam eos maxime id. Quod fuga pariatur ipsum est. Ea ipsam et accusamus suscipit ut. Est earum fugit.</p>
+</article>
